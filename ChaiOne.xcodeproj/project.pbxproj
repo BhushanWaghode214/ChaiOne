@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E34AAFA1A6FB01300C610E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E34AAF91A6FB01300C610E6 /* Main.storyboard */; };
+		7E3B7C141A6D1808007A410F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B7C131A6D1808007A410F /* main.m */; };
+		7E3B7C171A6D1808007A410F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B7C161A6D1808007A410F /* AppDelegate.m */; };
+		7E3B7C1A1A6D1808007A410F /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B7C191A6D1808007A410F /* PostViewController.m */; };
+		7E3B7C221A6D1808007A410F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B7C201A6D1808007A410F /* LaunchScreen.xib */; };
+		7E3B7C3F1A6D1845007A410F /* Posts.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B7C3A1A6D1845007A410F /* Posts.m */; };
+		7E3B7C401A6D1845007A410F /* SharedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B7C3C1A6D1845007A410F /* SharedManager.m */; };
+		7E3B7C411A6D1845007A410F /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B7C3E1A6D1845007A410F /* WebServices.m */; };
+		7E3B7C431A6D1900007A410F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3B7C421A6D1900007A410F /* AVFoundation.framework */; };
+		7E3B7C451A6D1908007A410F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3B7C441A6D1908007A410F /* Foundation.framework */; };
+		7E3B7C4E1A6D3729007A410F /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B7C4D1A6D3729007A410F /* Utilities.m */; };
+		7E9670CF1A6E2E5F00F6ECE0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9670CE1A6E2E5F00F6ECE0 /* QuartzCore.framework */; };
+		7E9670D81A6E8BF400F6ECE0 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9670D51A6E8BF400F6ECE0 /* Post.m */; };
+		7E9670D91A6E8BF400F6ECE0 /* PostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9670D71A6E8BF400F6ECE0 /* PostCell.m */; };
+		E2136F5C9321AAD843863509 /* libPods-ChaiOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 037B0B5BD525056BE76ED71A /* libPods-ChaiOne.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		037B0B5BD525056BE76ED71A /* libPods-ChaiOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChaiOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E34AAF91A6FB01300C610E6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7E3B7C0E1A6D1808007A410F /* ChaiOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaiOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3B7C121A6D1808007A410F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3B7C131A6D1808007A410F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E3B7C151A6D1808007A410F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E3B7C161A6D1808007A410F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E3B7C181A6D1808007A410F /* PostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		7E3B7C191A6D1808007A410F /* PostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		7E3B7C211A6D1808007A410F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7E3B7C2C1A6D1808007A410F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3B7C2D1A6D1808007A410F /* ChaiOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaiOneTests.m; sourceTree = "<group>"; };
+		7E3B7C381A6D1845007A410F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7E3B7C391A6D1845007A410F /* Posts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Posts.h; sourceTree = "<group>"; };
+		7E3B7C3A1A6D1845007A410F /* Posts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Posts.m; sourceTree = "<group>"; };
+		7E3B7C3B1A6D1845007A410F /* SharedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedManager.h; sourceTree = "<group>"; };
+		7E3B7C3C1A6D1845007A410F /* SharedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedManager.m; sourceTree = "<group>"; };
+		7E3B7C3D1A6D1845007A410F /* WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		7E3B7C3E1A6D1845007A410F /* WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
+		7E3B7C421A6D1900007A410F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7E3B7C441A6D1908007A410F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E3B7C471A6D196E007A410F /* ChaiOne-PreFix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChaiOne-PreFix.pch"; sourceTree = "<group>"; };
+		7E3B7C4C1A6D3729007A410F /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		7E3B7C4D1A6D3729007A410F /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		7E56B1999A29D25FBB233CC0 /* Pods-ChaiOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaiOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaiOne/Pods-ChaiOne.release.xcconfig"; sourceTree = "<group>"; };
+		7E9670CE1A6E2E5F00F6ECE0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7E9670D41A6E8BF400F6ECE0 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		7E9670D51A6E8BF400F6ECE0 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		7E9670D61A6E8BF400F6ECE0 /* PostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostCell.h; sourceTree = "<group>"; };
+		7E9670D71A6E8BF400F6ECE0 /* PostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostCell.m; sourceTree = "<group>"; };
+		92C3D5F16070BF38D2A02149 /* Pods-ChaiOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaiOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaiOne/Pods-ChaiOne.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E3B7C0B1A6D1808007A410F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9670CF1A6E2E5F00F6ECE0 /* QuartzCore.framework in Frameworks */,
+				7E3B7C451A6D1908007A410F /* Foundation.framework in Frameworks */,
+				7E3B7C431A6D1900007A410F /* AVFoundation.framework in Frameworks */,
+				E2136F5C9321AAD843863509 /* libPods-ChaiOne.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5391EB1000916B727731CB2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E9670CE1A6E2E5F00F6ECE0 /* QuartzCore.framework */,
+				037B0B5BD525056BE76ED71A /* libPods-ChaiOne.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E3B7C051A6D1808007A410F = {
+			isa = PBXGroup;
+			children = (
+				7E9670D31A6E8BF400F6ECE0 /* Custom Objects */,
+				7E3B7C4B1A6D3729007A410F /* Utilities */,
+				7E3B7C371A6D1845007A410F /* Terminal */,
+				7E3B7C101A6D1808007A410F /* ChaiOne */,
+				7E3B7C2A1A6D1808007A410F /* ChaiOneTests */,
+				7E3B7C0F1A6D1808007A410F /* Products */,
+				7E3B7C461A6D1911007A410F /* FrameWorks */,
+				8832D1CAF2A08C2ED354F432 /* Pods */,
+				5391EB1000916B727731CB2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E3B7C0F1A6D1808007A410F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B7C0E1A6D1808007A410F /* ChaiOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E3B7C101A6D1808007A410F /* ChaiOne */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B7C151A6D1808007A410F /* AppDelegate.h */,
+				7E3B7C161A6D1808007A410F /* AppDelegate.m */,
+				7E3B7C181A6D1808007A410F /* PostViewController.h */,
+				7E3B7C191A6D1808007A410F /* PostViewController.m */,
+				7E34AAF91A6FB01300C610E6 /* Main.storyboard */,
+				7E3B7C201A6D1808007A410F /* LaunchScreen.xib */,
+				7E3B7C111A6D1808007A410F /* Supporting Files */,
+				7E3B7C471A6D196E007A410F /* ChaiOne-PreFix.pch */,
+			);
+			path = ChaiOne;
+			sourceTree = "<group>";
+		};
+		7E3B7C111A6D1808007A410F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B7C121A6D1808007A410F /* Info.plist */,
+				7E3B7C131A6D1808007A410F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E3B7C2A1A6D1808007A410F /* ChaiOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B7C2D1A6D1808007A410F /* ChaiOneTests.m */,
+				7E3B7C2B1A6D1808007A410F /* Supporting Files */,
+			);
+			path = ChaiOneTests;
+			sourceTree = "<group>";
+		};
+		7E3B7C2B1A6D1808007A410F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B7C2C1A6D1808007A410F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E3B7C371A6D1845007A410F /* Terminal */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B7C381A6D1845007A410F /* Constants.h */,
+				7E3B7C391A6D1845007A410F /* Posts.h */,
+				7E3B7C3A1A6D1845007A410F /* Posts.m */,
+				7E3B7C3B1A6D1845007A410F /* SharedManager.h */,
+				7E3B7C3C1A6D1845007A410F /* SharedManager.m */,
+				7E3B7C3D1A6D1845007A410F /* WebServices.h */,
+				7E3B7C3E1A6D1845007A410F /* WebServices.m */,
+			);
+			name = Terminal;
+			path = ChaiOne/Terminal;
+			sourceTree = "<group>";
+		};
+		7E3B7C461A6D1911007A410F /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B7C441A6D1908007A410F /* Foundation.framework */,
+				7E3B7C421A6D1900007A410F /* AVFoundation.framework */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
+		7E3B7C4B1A6D3729007A410F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B7C4C1A6D3729007A410F /* Utilities.h */,
+				7E3B7C4D1A6D3729007A410F /* Utilities.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7E9670D31A6E8BF400F6ECE0 /* Custom Objects */ = {
+			isa = PBXGroup;
+			children = (
+				7E9670D41A6E8BF400F6ECE0 /* Post.h */,
+				7E9670D51A6E8BF400F6ECE0 /* Post.m */,
+				7E9670D61A6E8BF400F6ECE0 /* PostCell.h */,
+				7E9670D71A6E8BF400F6ECE0 /* PostCell.m */,
+			);
+			path = "Custom Objects";
+			sourceTree = "<group>";
+		};
+		8832D1CAF2A08C2ED354F432 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92C3D5F16070BF38D2A02149 /* Pods-ChaiOne.debug.xcconfig */,
+				7E56B1999A29D25FBB233CC0 /* Pods-ChaiOne.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E3B7C0D1A6D1808007A410F /* ChaiOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3B7C311A6D1808007A410F /* Build configuration list for PBXNativeTarget "ChaiOne" */;
+			buildPhases = (
+				9B3DEB93C56B3B131E7E9FAE /* Check Pods Manifest.lock */,
+				7E3B7C0A1A6D1808007A410F /* Sources */,
+				7E3B7C0B1A6D1808007A410F /* Frameworks */,
+				7E3B7C0C1A6D1808007A410F /* Resources */,
+				A0BDDBB5F21D7622B1B13FE0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaiOne;
+			productName = ChaiOne;
+			productReference = 7E3B7C0E1A6D1808007A410F /* ChaiOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E3B7C061A6D1808007A410F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = synerzip.com;
+				TargetAttributes = {
+					7E3B7C0D1A6D1808007A410F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 7E3B7C091A6D1808007A410F /* Build configuration list for PBXProject "ChaiOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E3B7C051A6D1808007A410F;
+			productRefGroup = 7E3B7C0F1A6D1808007A410F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E3B7C0D1A6D1808007A410F /* ChaiOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E3B7C0C1A6D1808007A410F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3B7C221A6D1808007A410F /* LaunchScreen.xib in Resources */,
+				7E34AAFA1A6FB01300C610E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B3DEB93C56B3B131E7E9FAE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0BDDBB5F21D7622B1B13FE0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaiOne/Pods-ChaiOne-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E3B7C0A1A6D1808007A410F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3B7C401A6D1845007A410F /* SharedManager.m in Sources */,
+				7E3B7C4E1A6D3729007A410F /* Utilities.m in Sources */,
+				7E3B7C3F1A6D1845007A410F /* Posts.m in Sources */,
+				7E9670D81A6E8BF400F6ECE0 /* Post.m in Sources */,
+				7E3B7C1A1A6D1808007A410F /* PostViewController.m in Sources */,
+				7E3B7C171A6D1808007A410F /* AppDelegate.m in Sources */,
+				7E3B7C411A6D1845007A410F /* WebServices.m in Sources */,
+				7E3B7C141A6D1808007A410F /* main.m in Sources */,
+				7E9670D91A6E8BF400F6ECE0 /* PostCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E3B7C201A6D1808007A410F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3B7C211A6D1808007A410F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E3B7C2F1A6D1808007A410F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E3B7C301A6D1808007A410F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E3B7C321A6D1808007A410F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C3D5F16070BF38D2A02149 /* Pods-ChaiOne.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChaiOne/ChaiOne-PreFix.pch";
+				INFOPLIST_FILE = ChaiOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "513f5f19-fc48-4b2d-a817-d48b3350bf19";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7E3B7C331A6D1808007A410F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E56B1999A29D25FBB233CC0 /* Pods-ChaiOne.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChaiOne/ChaiOne-PreFix.pch";
+				INFOPLIST_FILE = ChaiOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "513f5f19-fc48-4b2d-a817-d48b3350bf19";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E3B7C091A6D1808007A410F /* Build configuration list for PBXProject "ChaiOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3B7C2F1A6D1808007A410F /* Debug */,
+				7E3B7C301A6D1808007A410F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3B7C311A6D1808007A410F /* Build configuration list for PBXNativeTarget "ChaiOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3B7C321A6D1808007A410F /* Debug */,
+				7E3B7C331A6D1808007A410F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E3B7C061A6D1808007A410F /* Project object */;
+}
